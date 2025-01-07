@@ -1,0 +1,13 @@
+prefix=/home/prbhudeb/Desktop/AI/venv
+exec_prefix=/home/prbhudeb/Desktop/AI/venv
+libdir=/home/prbhudeb/Desktop/AI/venv/lib
+sharedlibdir=/home/prbhudeb/Desktop/AI/venv/lib
+includedir=/home/prbhudeb/Desktop/AI/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}

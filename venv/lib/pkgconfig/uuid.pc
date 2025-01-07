@@ -1,0 +1,11 @@
+prefix=/home/prbhudeb/Desktop/AI/venv
+exec_prefix=/home/prbhudeb/Desktop/AI/venv
+libdir=/home/prbhudeb/Desktop/AI/venv/lib
+includedir=/home/prbhudeb/Desktop/AI/venv/include
+
+Name: uuid
+Description: Universally unique id library
+Version: 2.32.1
+Requires:
+Cflags: -I${includedir}/uuid
+Libs: -L${libdir} -luuid
